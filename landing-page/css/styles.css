@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* setting up the font and the background color */
+body {
+    background-color: #F7F7FF;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* setting up the background */
+main{
+    width: 375px;
+    margin: auto;
+    background-image: url("../images/bg-image/scooter.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header img{
+    width: 100px;
+    height: 100px;
+}
+
+/* designing the text */
+p a{
+    color: #FF8480;
+    text-decoration: none;
+}
+
+h1{
+    font-weight: 700;
+}
+
+h3{
+    font-weight: 400;
+}
+
+h2{
+    padding-top: 1rem;
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: left;
+    padding-left: 1rem;
+}
+.main-form .info {
+    text-align: left;
+    padding-left: 1rem;
+}
+
+/* designing the main form aka the "Apply Now" section */
+.main-form{
+    background-color: #FFFFFF;
+    display: block;
+    border-radius: 20px;
+    border-style: none;
+    box-shadow: 5px 10px 15px 0 rgba(0, 0, 0, 0.2);
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+
+
+input[type=text]{
+    width: 100%;
+    box-sizing: border-box;
+    background-color:#F4F4F5;
+    border-style: none;
+    border-radius: 6px;
+    height: 40px;
+}
+
+fieldset{
+    border: none;
+}
+
+button{
+    display: block;
+    border-radius: 6px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.green-button{
+    background-color: #57EEAB;
+    border: none;
+    font-weight: bold;
+    width: 250px;
+    height: 55px;
+}
+
+/* designing the footer */
+.red-button{
+    background-color: #FF8480;
+    border:none;
+    font-weight: bold;
+    color: #F7F7FF;
+    width: 100%;
+    height: 40px;
+}
+
+footer {
+    margin-top: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FFFD8C;
+    padding: 0.1rem 6.2rem 1rem 6.2rem;
+}
+
+.input-cal{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-gap: 0.5rem;
+    width:100%;
+    box-sizing: border-box;
+}
+
+.input-cal .b-cal:nth-child(1){
+    grid-column: span 1;
+}
+.input-cal .b-cal:nth-child(2){
+    grid-column: span 2;
+}
+.input-cal .b-cal:nth-child(3){
+    grid-column: span 3;
+}
+
+.media-logos{
+    padding-top: 1.25rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/*  adjusting for tablet mode */
+@media (min-width: 679px){
+    
+    .input-cal{
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        grid-template-rows: repeat(1,1fr);
+        grid-gap: 0.5rem;
+        width:100%;
+        box-sizing: border-box;
+    }
+    
+    .input-cal .b-cal:nth-child(1){
+        grid-column: span 1;
+    }
+    .input-cal .b-cal:nth-child(2){
+        grid-column: span 2;
+    }
+    .input-cal .b-cal:nth-child(3){
+        grid-column: span 2;
+    }
+}
+
+
+main{
+    width: 605px;
+    margin: auto;
+}
+
+.main-form{
+    width: 605px;
+}
+
+h1{
+    font-size: 60pt;
+}
+
+h2{
+    font-size: 29pt;
+}
+
+h3{
+    font-size: 18pt;
+}
+
+.info {
+    font-size: 17pt;
+}
+
+.green-button {
+    width: 525px;
+    height: 64px;
+    font-size:23pt;
+}
+
+
+/* adjusting for desktop */
+@media (min-width: 1023px) {
+    
+    main{
+        width: 950px;
+        margin: auto;
+    }
+    
+    .icon{
+        margin-left: -11.5rem;
+    }
+
+    .oldiv{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(1, 1fr);
+        grid-gap: 24rem;
+    }
+    
+    .newdiv{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(1, 1fr);
+        grid-gap:12rem;
+    }
+    
+    .title h1, .title h3{
+    margin-left:-75%;
+    }
+
+}
