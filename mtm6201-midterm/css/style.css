@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#logo{
+    width: 88.px;
+    height: auto;
+    display: block;
+}
+
+header{
+    background-color: #3C3B3A;
+    text-align: center;
+}
+
+a{
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 16px;
+}
+/*---NavBar---*/
+nav ul li {
+    display: block;
+    padding-bottom: 25px;
+}
+
+nav a:hover,
+nav a.active,
+nav ul li:active {
+    font-weight: bold;
+}
+
+.navbar{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    color: #3C3B3A;
+    background-color: #f2f2f2;
+}
+
+
+
+h1{
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+h2{
+    color: #3C3B3A;
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+h3{
+    color: #26A682;
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+/*-------------------------------------Home-------------------------------------*/
+
+.container1 {
+    margin: auto;
+    width: 600px;
+}
+
+.block1 {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.block2 {
+    margin: auto;
+    width: 300px;
+}
+
+.school {
+    width: 100%;
+    height: auto;
+}
+
+p{
+    font-size: 1.3rem;
+    line-height: 35px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.icons{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    color: #26a682;
+}
+
+.container3{
+    background-color: #3C3B3A;
+    padding-top: 30px;
+}
+
+
+#simon-img{
+    border-radius: 100%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #f2f2f2;
+}
+
+.block3 p {
+    color: #F2F2F2;
+    font-size: 1rem;
+    line-height: 35px;
+    padding-bottom: 50px;
+}
+
+.block3 h2 {
+    color: #F2F2F2;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 28px;
+    text-align: center;
+}
+
+#entertainment{
+    width: 100%;
+    clip-path: inset(0 0 15% 0);
+}
+
+/*----Buttons----*/
+
+button{
+    background-color: #26a682;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #f2f2f2;
+    font-size: 32px;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 0 10px 10px #124A3A80;
+    margin-top: 2rem;
+}
+
+.start{
+    margin-top: 1.9rem;
+    height: 50px;
+    width: 300px;
+}
+
+.learn {
+    font-size: 1.25rem;
+    height: 45px;
+    margin-top: 1.9rem;
+    width: 146px;
+    margin-bottom: 2.1rem;
+}
+
+.learnbtn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+button:active {
+    background-color: #167A5E;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.discover{
+    margin-top: 2.5rem;
+    width: 300px;
+    height: auto;
+    margin-bottom: 1.5rem;
+}
+
+
+/*-------------------------------------About-------------------------------------*/
+.block1-abt{
+    margin: auto;
+    width: 300px;
+}
+
+.construction{
+    width: 300px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.abt-img{
+    width: 100%;
+}
+
+
+
+.subscribe{
+    background-color: #3C3B3A;
+    color: #F2F2F2;
+    text-align: center;
+}
+
+.subscribe h5{
+    font-weight: normal;
+    font-size: 1.2rem;
+    padding-top: 1.5rem;
+}
+
+
+.subscribe-btn{
+    background-color: #26A682;
+    border-radius: 40px;
+    border: none;
+    color: #F2F2F2;
+    font-size: 1.25rem;
+    font-weight: bold;
+    height: 45px;
+    margin-top: 1.5rem;
+    width: 146px;
+    margin-bottom: 1.5rem;
+}
+
+.img-text {
+    position: relative;
+    text-align: center;
+    color: #F2F2F2;
+    padding: 0;
+    margin: 0;
+}
+
+.img-text h2{
+    position: absolute;
+    font-size: 3rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #f2f2f2;
+    font-style: normal;
+}
+
+.block2-abt{
+    background-color: #f2f2f2;
+}
+
+.block3-abt h2{
+    color: #3C3B3A;
+    text-align: left;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.container4-abt .block4-abt {
+    margin: auto;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+.block4-abt p{
+    color: #3C3B3A;
+    font-size: 1rem;
+    line-height: 35px;
+    margin-bottom: 1rem;
+}
+
+.block5-abt{
+    display: block;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+.block5-abt img{
+    width: 100%;
+}
+
+/*-------------------------------------Contact-----------------------------------*/
+
+/*---Form Section---*/
+form {
+    background-color: #26A682;
+    border-radius: 25px;
+    color: #F2F2F2;
+    box-shadow: 10px 10px 7px #14403326;
+}
+
+fieldset {
+    border: none;
+}
+
+.form-text h2 {
+    padding: 1rem 1rem 0;
+    color: #F2F2F2;
+    font-style: normal;
+    font-weight: bold;
+}
+
+input[type=text],
+input[type=email],
+input[type=number] {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    border: none;
+    height: 40px;
+    padding: 5%;
+    border-radius: 72px;
+    margin-top: 5px;
+}
+
+fieldset textarea {
+    width: 100%;
+    height: 100px;
+    resize: none;
+    border: none;
+    border-radius: 10px;
+    padding: 5%;
+    margin-top: 5px;
+}
+
+input[type=button] {
+    border-radius: 40px;
+    border: none;
+    color: #F2F2F2;
+    background-color: #3C3B3A;
+    width: 100%;
+    height: 50px;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+/*---Footer Section---*/
+
+.socialmedia{
+    padding-top: 0.5rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+footer{
+    background-color: #3C3B3A;
+}
+
+footer p{
+    padding-top: 2rem;
+    color: #F2F2F2;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+
+.socialmedia{
+    padding-top: 0.5rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+
