@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="390" height="844" viewBox="0 0 390 844">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffe081"/>
+      <stop offset="1" stop-color="#807041"/>
+    </linearGradient>
+    <filter id="Rectangle_6" x="67" y="491" width="257" height="97" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.588"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_7" x="67" y="601" width="257" height="97" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.58"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-iPhone_12_12_Pro_1">
+      <rect width="390" height="844"/>
+    </clipPath>
+  </defs>
+  <g id="iPhone_12_12_Pro_1" data-name="iPhone 12, 12 Pro – 1" clip-path="url(#clip-iPhone_12_12_Pro_1)">
+    <rect width="390" height="844" fill="#fff"/>
+    <g id="Path_6" data-name="Path 6" fill="#ebf8fe">
+      <path d="M 389.5 843.5 L 0.5 843.5 L 0.5 0.5 L 389.5 0.5 L 389.5 843.5 Z" stroke="none"/>
+      <path d="M 1 1 L 1 843 L 389 843 L 389 1 L 1 1 M 0 0 L 390 0 L 390 844 L 0 844 L 0 0 Z" stroke="none" fill="#707070"/>
+    </g>
+    <path id="Path_5" data-name="Path 5" d="M491.248,0S616.859,223.86,746.2,245s190.281,0,196.5,108.2,162.92,126.854,162.92,126.854,124.367,18.655,111.93,120.636,60.94,106.955,60.94,106.955V0Z" transform="translate(390 -434.489) rotate(90)" fill="url(#linear-gradient)"/>
+    <path id="Path_1" data-name="Path 1" d="M0,0H390V159.679H0Z" fill="#424651"/>
+    <text id="Mo" transform="translate(160)" fill="#ebf8fe" font-size="45" font-family="Broadway"><tspan x="0" y="41">Mo</tspan></text>
+    <rect id="Rectangle_5" data-name="Rectangle 5" width="390" height="38" transform="translate(0 51)" fill="#04c869"/>
+    <g id="Group_23" data-name="Group 23" transform="translate(-139 41)">
+      <text id="About" transform="translate(305 51)" fill="#ebf8fe" font-size="20" font-family="Raleway-Regular, Raleway"><tspan x="0" y="19">About</tspan></text>
+      <text id="Contact" transform="translate(300 85)" fill="#ebf8fe" font-size="20" font-family="Raleway-Regular, Raleway"><tspan x="0" y="19">Contact</tspan></text>
+      <text id="Home" transform="translate(306 17)" fill="#424651" font-size="20" font-family="Raleway-Regular, Raleway"><tspan x="0" y="19">Home</tspan></text>
+    </g>
+    <path id="Path_3" data-name="Path 3" d="M0,0H390V59.437H0Z" transform="translate(0 784.563)" fill="#424651"/>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_6)">
+      <rect id="Rectangle_6-2" data-name="Rectangle 6" width="239" height="79" rx="39.5" transform="translate(76 497)" fill="#04c869"/>
+    </g>
+    <text id="Learn_more" data-name="Learn more" transform="translate(126 522)" fill="#ebf8fe" font-size="25" font-family="Raleway" font-weight="700"><tspan x="0" y="24">Learn more</tspan></text>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_7)">
+      <rect id="Rectangle_7-2" data-name="Rectangle 7" width="239" height="79" rx="39.5" transform="translate(76 607)" fill="#04c869"/>
+    </g>
+    <text id="Lets_Talk" data-name="Lets Talk" transform="translate(142 632)" fill="#ebf8fe" font-size="25" font-family="Raleway" font-weight="700"><tspan x="0" y="24">Lets Talk</tspan></text>
+    <text id="_Every_great_design_begins_with_an_even_better_story." data-name="&quot; Every great design begins with an even better story." transform="translate(36 182)" fill="#424651" font-size="40" font-family="Raleway" font-weight="700"><tspan x="0" y="38">&quot; Every great </tspan><tspan x="0" y="85">design begins </tspan><tspan x="0" y="132">with an even </tspan><tspan x="0" y="179">better story.</tspan></text>
+    <text id="_-_Lorinda_Mamo" data-name="- Lorinda Mamo" transform="translate(126 387)" fill="#424651" font-size="30" font-family="Raleway" font-weight="700"><tspan x="0" y="28">- Lorinda Mamo</tspan></text>
+    <g id="Group_28" data-name="Group 28" transform="translate(-102 39)">
+      <text id="_1_252_252-25252" data-name="+1(252)252-25252" transform="translate(347 783)" fill="#ebf8fe" font-size="14" font-family="Raleway-Regular, Raleway"><tspan x="0" y="13">+1(252)252-25252</tspan></text>
+      <text id="ON_Ottawa_K2C1Y5" data-name="ON Ottawa, K2C1Y5" transform="translate(330 755)" fill="#ebf8fe" font-size="14" font-family="Raleway-Regular, Raleway"><tspan x="0" y="13">ON Ottawa, K2C1Y5</tspan></text>
+      <text id="About_Us" data-name="About Us" transform="translate(138 755)" fill="#ebf8fe" font-size="14" font-family="Raleway-Regular, Raleway"><tspan x="0" y="13">About Us</tspan></text>
+      <text id="Contact_Us" data-name="Contact Us" transform="translate(138 783)" fill="#ebf8fe" font-size="14" font-family="Raleway-Regular, Raleway"><tspan x="0" y="13">Contact Us</tspan></text>
+    </g>
+  </g>
+</svg>
